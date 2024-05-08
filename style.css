@@ -1,0 +1,67 @@
+* {
+    background-color: #222832;
+}
+
+.navbar {
+    width: 100%;
+    text-align: right;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    font-family: var(--font-irish-grover);
+    background-color: #13161B;
+}
+
+.navbar li {
+    color: yellow;
+    list-style: none;
+    background-color: #13161B;
+}
+
+.profile-image {
+    position: absolute;
+    top: 200px;
+    left: 145px;
+    border-radius: 55px;
+    background-color: var(--color-gold);
+    width: 410px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.title {
+    position: absolute;
+    font-size: 35px;
+    top: 250px;
+    left: 855px;
+    width: 191px;
+    height: 88;
+    font-family: var(--font-irish-grover);
+    color: yellow;
+}
+
+.intro {
+    position: absolute;
+    font-size: 50px;
+    top: 386px;
+    left: 950px;
+    width: 377px;
+    height: 57px;
+    font-family: var(--font-irish-grover);
+    color: yellow;
+}
+
+.desc {
+    position: absolute;
+    font-size: 25px;
+    top: 491px;
+    left: 855px;
+    width: 861px;
+    height: 170px;
+    font-family: var(--font-irish-grover);
+    color: yellow;
+}
