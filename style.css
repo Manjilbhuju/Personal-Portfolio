@@ -1,67 +1,113 @@
-* {
-    background-color: #222832;
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
 }
 
+section {
+  height: 100vh;
+  padding-top: 75px;
+}
+
+.home {
+  background-color: #222832;
+  padding-top: 50px;
+}
+
+/* Navbar section */
+
 .navbar {
-    width: 100%;
-    text-align: right;
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  position: fixed !important;
+  top: 0px;
+  background-color: #13161b;
 }
 
 .navbar ul {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    width: 100%;
-    font-family: var(--font-irish-grover);
-    background-color: #13161B;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  font-family: var(--font-irish-grover);
+  background-color: inherit;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 .navbar li {
-    color: yellow;
-    list-style: none;
-    background-color: #13161B;
+  color: #ffe500;
+  list-style: none;
+  background-color: inherit;
+}
+
+/* Image and Description */
+
+.intro {
+  padding: 50px;
+  display: flex;
+  gap: 100px;
+  margin: 50px;
+  justify-content: space-around;
 }
 
 .profile-image {
-    position: absolute;
-    top: 200px;
-    left: 145px;
-    border-radius: 55px;
-    background-color: var(--color-gold);
-    width: 410px;
-    height: 600px;
-    object-fit: cover;
+  border-radius: 55px;
+  background-color: var(--color-gold);
+  width: 410px;
+  height: 600px;
+  object-fit: cover;
 }
 
-.title {
-    position: absolute;
-    font-size: 35px;
-    top: 250px;
-    left: 855px;
-    width: 191px;
-    height: 88;
-    font-family: var(--font-irish-grover);
-    color: yellow;
+.me {
+  width: 1000px;
+  font-family: var(--font-irish-grover);
+  color: #ffe500;
+  padding: 100px 0px;
 }
 
-.intro {
-    position: absolute;
-    font-size: 50px;
-    top: 386px;
-    left: 950px;
-    width: 377px;
-    height: 57px;
-    font-family: var(--font-irish-grover);
-    color: yellow;
+.greet {
+  font-size: 35px;
+}
+
+.name {
+  font-size: 50px;
+  padding: 25px 100px;
 }
 
 .desc {
-    position: absolute;
-    font-size: 25px;
-    top: 491px;
-    left: 855px;
-    width: 861px;
-    height: 170px;
-    font-family: var(--font-irish-grover);
-    color: yellow;
+  font-size: 25px;
+}
+
+/* About Section*/
+
+.about {
+  background-color: #31363f;
+}
+
+.about-title {
+  font-size: 50px;
+  font-family: var(--font-irish-grover);
+  color: #ffe500;
+}
+
+/* Experience and Education */
+.experience {
+  background-color: #222832;
+  color: #ffe500;
+  font-family: var(--font-irish-grover);
+}
+
+/* Contact Me section */
+.contact {
+  background-color: #030303;
+  color: #ffe500;
+  height: 50vh;
+  font-family: var(--font-irish-grover);
 }
