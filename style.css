@@ -171,8 +171,44 @@ section {
 /* Experience and Education */
 .experience {
   background-color: #222832;
+}
+
+.experience-title {
   color: #ffe500;
   font-family: var(--font-irish-grover);
+  padding: 70px 0px 0px 730px;
+}
+
+.project {
+  display: flex;
+  padding: 75px 50px 0px 50px;
+  gap: 75px;
+}
+
+.project1 span {
+  color: #ffe500;
+  font-family: var(--font-irish-grover);
+  font-size: 25px;
+}
+
+.project2 span {
+  color: #ffe500;
+  font-family: var(--font-irish-grover);
+  font-size: 25px;
+}
+
+.project-title {
+  color: #ffe500;
+  font-family: var(--font-irish-grover);
+  font-size: 35px;
+  padding-top: 30px;
+  padding-left: 95px;
+}
+
+.project-title span {
+  color: #d9d9d9;
+  font-family: var(--font-irish-grover);
+  font-size: 35px;
 }
 
 /* Contact Me section */
