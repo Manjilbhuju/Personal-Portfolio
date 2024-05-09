@@ -78,7 +78,7 @@ section {
   font-size: 35px;
 }
 
-.name {
+.myname {
   font-size: 50px;
   padding: 25px 100px;
 }
@@ -214,7 +214,103 @@ section {
 /* Contact Me section */
 .contact {
   background-color: #030303;
-  color: #ffe500;
   height: 50vh;
+}
+
+.all-contact {
+  display: flex;
+}
+
+.contact-title {
+  display: flex;
+  color: #ffe500;
   font-family: var(--font-irish-grover);
+  padding-left: 800px;
+  font-size: 50px;
+}
+
+.contact-title span {
+  color: #d9d9d9;
+  font-family: var(--font-irish-grover);
+  padding-left: 15px;
+}
+
+.contact-me {
+  padding-left: 100px;
+  flex: 1;
+}
+
+.myinfo {
+  color: #d9d9d9;
+  font-family: var(--font-irish-grover);
+  font-size: 35px;
+}
+
+.myinfo span {
+  color: #ffe500;
+  font-family: var(--font-irish-grover);
+  font-size: inherit;
+}
+
+.my-info p {
+  color: #ffe500;
+  font-family: var(--font-irish-grover);
+  font-size: 20px;
+}
+
+.your-info {
+  flex: 2;
+}
+
+.name {
+  display: flex;
+  padding-left: 75px;
+  gap: 25px;
+}
+
+.email {
+  display: flex;
+  padding: 20px 0px 0px 100px;
+}
+
+.message {
+  display: flex;
+  padding: 20px 0px 0px 100px;
+  width: 78%;
+}
+
+.message textarea {
+  width: inherit;
+  background: #646363;
+  border-radius: 103.5px;
+}
+
+input,
+textarea {
+  padding: 20px;
+  color: white;
+}
+
+input {
+  background: #646363;
+  border: none;
+  border: solid 1px #ccc;
+  border-radius: 103.5px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #d9d9d9;
+  opacity: 1;
+  text-align: center;
+  font-family: var(--font-irish-grover);
+  font-size: 25px;
+}
+
+button {
+  display: block;
+  height: 20px;
+  width: 200px;
+  border-radius: 50px;
+  border: 1px solid red;
 }
