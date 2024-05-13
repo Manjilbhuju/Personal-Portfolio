@@ -262,12 +262,6 @@ section {
   flex: 2;
 }
 
-.name {
-  display: flex;
-  padding-left: 75px;
-  gap: 25px;
-}
-
 .email {
   display: flex;
   padding: 20px 0px 0px 100px;
@@ -276,7 +270,7 @@ section {
 .message {
   display: flex;
   padding: 20px 0px 0px 100px;
-  width: 78%;
+  width: 750px;
 }
 
 .message textarea {
@@ -291,7 +285,7 @@ textarea {
   color: white;
 }
 
-.input {
+.input-info {
   background: #646363;
   border: none;
   border: solid 1px;
@@ -306,6 +300,20 @@ textarea::-webkit-input-placeholder {
   font-family: var(--font-irish-grover);
   font-size: 25px;
   padding: 20px;
+}
+
+.input-name {
+  background: #646363;
+  border: none;
+  border: solid 1px;
+  border-radius: 103.5px;
+  width: 650px;
+}
+
+.name {
+  display: flex;
+  padding-left: 75px;
+  gap: 25px;
 }
 
 .btn {
